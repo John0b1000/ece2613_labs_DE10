@@ -9,9 +9,5 @@ module gates(
 	);
 
 	// Write code starting here ...
-	assign f0 = a0 & b0;
-	assign f1 = a1 | b1;
-	assign f2 = a2 ^ b2;
-	assign f3 = ~(a3 & b3);
 
 endmodule
