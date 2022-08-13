@@ -25,7 +25,7 @@
 //
 //  *****************************************************************************
 
-// insert macros here
+// insert macros here ...
 
 module DE10_LITE_Temple_Top(
 
