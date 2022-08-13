@@ -1,5 +1,5 @@
 //
-// lab6 : version 06/12/2020
+// lab6 : version 08/13/2022
 // 
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
@@ -10,15 +10,6 @@ module lab6_alu_1 (
 	input logic [11:0] sw
 	);
 
-	// enter your code here
-	//
-	// declare internal signals
-	//
-	logic [3:0] result;
-
-	// instantiate the appropriate modules
-	//
-	alu_1 u_alu (.f(result[3:0]), .c_out(c_out), .a(sw[3:0]), .b(sw[7:4]), .c_in(sw[8]), .sel(sw[11:9]));
-	svn_seg_decoder u_svn (.seg_out(cathode[6:0]), .bcd_in(result[3:0]), .display_on(1'b1));
+	// Enter your code here ...
 
 endmodule
