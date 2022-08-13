@@ -7,6 +7,6 @@ module hamming7_4_encode(
 	input logic [4:1] d
 	);
 
-	// Enter your design here ...
+	// Enter your code here ...
 
 endmodule
