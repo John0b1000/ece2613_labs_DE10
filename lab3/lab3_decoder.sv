@@ -11,14 +11,5 @@ module lab3_decoder(
 	);
 
 	// Enter your code here ...
-	//
-	// instantiate two outputs from the class presentation, double check with your TA for the values 
-	//assign an[3:0] = 4'b1001;
-	//assign cathode[6:0] = 4'b0011001;
-	
-	// instantiate both decoders
-	//
-	anode_decoder u_ad (.anode(an[3:0]), .switch_in(sw[5:4]));
-	svn_seg_decoder u_svn (.seg_out(cathode[6:0]), .bcd_in(num[3:0]), .display_on(sw[6]));
 
 endmodule
