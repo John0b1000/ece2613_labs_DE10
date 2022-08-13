@@ -1,5 +1,5 @@
 //
-// lab2 : version 06/12/2020
+// lab2 : version 08/13/2022
 // 
 `timescale 1ns / 1ps
 module hamming7_4_encode(
@@ -7,7 +7,6 @@ module hamming7_4_encode(
 	input logic [4:1] d
 	);
 
-	// enter your code here
-	//
+	// Enter your design here ...
 
 endmodule
