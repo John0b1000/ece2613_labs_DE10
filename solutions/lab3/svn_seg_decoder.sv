@@ -10,9 +10,9 @@ module svn_seg_decoder(
 	input logic display_on
 	);
 
-	// add the design code here
+	// Enter your code here ...
 	//
-	always @* begin
+	always_comb begin
 		
 		// if: display_on is 0, turn all segments off
 		//
