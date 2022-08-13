@@ -137,7 +137,7 @@ module DE10_LITE_Temple_Top(
 	assign ledr[7:0] = sw[7:0];
 
 	// Instantiate the top module
-	lab6_alu_1 u_top (.sw({~key,sw}), .c_out(ledr[8]), .cathode);
+	lab6_alu_1 u_top (.sw, .button(~key), .c_out(ledr[8]), .cathode);
 
 	// and instantiate the muxed display module
 	muxed_display u_md (.hex3, .hex2, .hex1, .hex0,
