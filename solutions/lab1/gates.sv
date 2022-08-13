@@ -8,7 +8,7 @@ module gates(
 	input logic a2, input logic b2, input logic a3, input logic b3
 	);
 
-	// Write code starting here ...
+	// Enter your code here ...
 	//
 	// instantiate gates
 	//
