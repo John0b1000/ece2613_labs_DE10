@@ -9,9 +9,9 @@ module anode_decoder(
 	input logic [1:0] switch_in
 	);
 
-	// add the design code here
+	// Enter your code here ...
 	//
-	always @* begin
+	always_comb begin
 		
 		// use case staetment to decode
 		//
