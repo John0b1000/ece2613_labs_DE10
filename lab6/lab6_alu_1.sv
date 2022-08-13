@@ -8,6 +8,7 @@ module lab6_alu_1 (
 	output logic c_out,
 	output logic [6:0] cathode,
 	input logic [11:0] sw
+	input logic [1:0] button
 	);
 
 	// Enter your code here ...
