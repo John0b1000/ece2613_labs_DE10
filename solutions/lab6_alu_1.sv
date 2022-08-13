@@ -1,5 +1,5 @@
 //
-// lab6 : version 06/12/2020
+// lab6 : version 08/13/2022
 // 
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
@@ -10,8 +10,9 @@ module lab6_alu_1 (
 	input logic [11:0] sw
 	);
 
-	// enter your code here
+	// Enter your code here ...
 	//
+	
 	// declare internal signals
 	//
 	logic [3:0] result;
