@@ -1,5 +1,5 @@
 //
-// lab1 : version 06/12/2020
+// lab1 : version 08/13/2022
 // 
 `timescale 1ns / 1ps
 module gates(
