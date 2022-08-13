@@ -55,7 +55,8 @@ function [6:0] hex_to_svn_seg;
 endfunction
 
 	// Inputs
-	logic [11:0] sw;
+	logic [9:0] sw;
+	logic [1:0] button;
 
 	// Outputs
 	logic [6:0] cathode;
