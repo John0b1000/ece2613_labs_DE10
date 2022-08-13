@@ -1,10 +1,11 @@
+//
+// lab5a : version 08/13/2022
+// 
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////
 module transparent_d_latch (output logic q, input logic d, input logic c);
 
-	// add code here
-	//
-	lvl_sen_sr_latch u_lvl (.q(q), .s(d), .c(c), .r(~d));
-
+	// Enter your code here ...
+	
 endmodule
