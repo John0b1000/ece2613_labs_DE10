@@ -6,7 +6,6 @@
 //////////////////////////////////////////////////////////////////////////////////
 module d_flip_flop (output logic q, input logic d, input logic clk);
 
-
 	// Enter your code here ...
 
 endmodule
