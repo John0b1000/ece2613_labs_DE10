@@ -1,5 +1,5 @@
 //
-// lab1 : version 06/12/2020
+// lab1 : version 08/13/2022
 // 
 `timescale 1ns / 1ps
 module gates(
@@ -8,6 +8,6 @@ module gates(
 	input logic a2, input logic b2, input logic a3, input logic b3
 	);
 
-	// Write code starting here ...
+	// Enter your design here ...
 
 endmodule
