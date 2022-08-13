@@ -1,5 +1,5 @@
 //
-// lab4 : version 06/12/2020
+// lab4 : version 08/13/2022
 // 
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
@@ -11,8 +11,9 @@ module lab4_decoder(
 	input logic [6:0] sw
 	);
 
-	// insert your code here
+	// Enter your code here ...
 	//
+	
 	// declare bad_bit wire
 	//
 	logic [2:0] bad_bit;
