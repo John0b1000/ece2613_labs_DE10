@@ -25,7 +25,7 @@
 //
 //  *****************************************************************************
 
-// insert macros here
+// Insert macros here ...
 //
 `define ENABLE_LED
 `define ENABLE_SW
