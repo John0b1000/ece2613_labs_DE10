@@ -7,7 +7,6 @@
 module sr_latch (output logic qa, output logic qb, input logic s,
 	input logic r);
 
-	
-   // Enter your code here ...
+	// Enter your code here ...
 
 endmodule
