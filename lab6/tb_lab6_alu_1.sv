@@ -90,7 +90,7 @@ endfunction
 			single_vector = test_vector [i];
 			
 			// now apply the stimuli to from the vector to the input signals
-			{sw[11:9], sw[3:0], sw[7:4], sw[8]} = single_vector[COLUMNS-1:COLUMNS-INPUTS];
+			{button[1:0], sw[9], sw[3:0], sw[7:4], sw[8]} = single_vector[COLUMNS-1:COLUMNS-INPUTS];
 			#10;	// wait 10 ns for inputs to settle
 			// compare to expected value
 			if ({c_out, cathode} !==
@@ -98,7 +98,7 @@ endfunction
 				hex_to_svn_seg(single_vector[COLUMNS-INPUTS-2:0])}) begin
 				// display mismatch
 				$display("Mismatch--loop index i: %d; input: sel=%b a=%b b=%b c_in=%b expected: {c_out,f}=%b, received: %b",
-					i, sw[11:9], sw[3:0], sw[7:4], sw[8], single_vector[COLUMNS-INPUTS-1:0],
+					i, {button[1:0], sw[9]}, sw[3:0], sw[7:4], sw[8], single_vector[COLUMNS-INPUTS-1:0],
 					{c_out,svn_seg_to_hex(cathode)});
 
 				mm_count = mm_count + 1;	// increment mismatch count
