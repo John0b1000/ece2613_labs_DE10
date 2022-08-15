@@ -6,8 +6,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 module lvl_sen_sr_latch (output logic q, input logic s, input logic r,
 	input logic c);
-
-
+	
+	// Enter your code here ...
+	//
 	// add output from and gates
 	//
 	logic s1;
