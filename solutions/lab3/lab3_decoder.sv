@@ -17,6 +17,6 @@ module lab3_decoder(
 	//assign cathode[6:0] = 4'b0011001;
 
 	anode_decoder u_ad (.anode(an[3:0]), .switch_in(sw[5:4]));
-	svn_seg_decoder u_svn (.seg_out(cathode[6:0]), .bcd_in(num[3:0]), .display_on(sw[6]));
+	svn_seg_decoder u_svn (.seg_out(cathode[6:0]), .bcd_in(sw[3:0]), .display_on(sw[6]));
 
 endmodule
