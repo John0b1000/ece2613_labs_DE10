@@ -1,3 +1,6 @@
+//
+// lab7 : version 08/13/2022
+// 
 `timescale 1ns / 1ps
 
 module display_driver( output logic [6:0] cathode, output logic [3:0] anode,
