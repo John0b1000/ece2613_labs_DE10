@@ -1,3 +1,6 @@
+//
+// lab7 : version 08/17/2022
+// 
 `timescale 1ns / 1ps
 
 module d_counter (output logic [1:0] ms_bits, input logic clk, input logic rst);
