@@ -1,6 +1,6 @@
 //
 // lab7 : version 08/17/2022
-// 
+//
 `timescale 1ns / 1ps
 
 module rc_fsm (output logic enable, output logic up_down,
