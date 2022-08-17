@@ -472,8 +472,8 @@ set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 # -------------------------------------------------------------------------- #
 set_global_assignment -name SYSTEMVERILOG_FILE ../lab3/svn_seg_decoder.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ../lab3/anode_decoder.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../lab6a/d_counter.sv
-set_global_assignment -name SYSTEMVERILOG_FILE ../lab6a/display_driver.sv
+set_global_assignment -name SYSTEMVERILOG_FILE display_driver/d_counter.sv
+set_global_assignment -name SYSTEMVERILOG_FILE display_driver/display_driver.sv
 set_global_assignment -name SYSTEMVERILOG_FILE up_down_count_dp.sv
 set_global_assignment -name SYSTEMVERILOG_FILE rot_enc_rec.sv
 set_global_assignment -name SYSTEMVERILOG_FILE rc_fsm.sv
