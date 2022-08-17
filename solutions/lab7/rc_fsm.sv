@@ -1,11 +1,15 @@
+//
+// lab7 : version 08/17/2022
+//
 `timescale 1ns / 1ps
 
 module rc_fsm (output logic enable, output logic up_down,
 	output logic error, input logic [1:0] quad_ctl,
 	input logic rst, input logic clk);
 
+	// Enter your code here ...
 	enum logic [1:0] {HOLD, UP, DOWN, ERROR} state, next_state;
-
+	
 	// sequential logic
 	always_ff @(posedge clk) begin
 		state <= next_state;
