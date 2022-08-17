@@ -1,8 +1,12 @@
+//
+// lab7 : version 08/17/2022
+//
 `timescale 1ns / 1ps
 
 module up_down_bcd_counter (output logic [3:0] bcd, output logic carry_out,
 	input logic carry_in, input logic up_down, input logic rst, input logic clk);
-
+	
+	// Enter your code here ...
 	logic [3:0] next_bcd;
 
 	// sequential logic
