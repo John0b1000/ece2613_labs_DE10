@@ -1,3 +1,6 @@
+//
+// lab7 : version 08/17/2022
+//
 `timescale 1ns / 1ps
 
 module rotation_counter (output logic [6:0] cathode, output logic [3:0] anode,
