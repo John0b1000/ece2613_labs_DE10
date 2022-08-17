@@ -1,6 +1,6 @@
 //
 // lab7 : version 08/17/2022
-// 
+//
 `timescale 1ns / 1ps
 
 module up_down_bcd_counter (output logic [3:0] bcd, output logic carry_out,
