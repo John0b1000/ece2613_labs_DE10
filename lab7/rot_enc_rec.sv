@@ -1,3 +1,6 @@
+//
+// lab7 : version 08/17/2022
+//
 `timescale 1ns / 1ps
 
 module rot_enc_rec (output logic [1:0] quad_ctl, input logic q_a, input logic q_b,
