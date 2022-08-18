@@ -18,6 +18,8 @@ module rc_fsm (output logic enable, output logic up_down,
 	// combinational logic
 	always_comb begin
 		
+		
+		if (rst == 1'b1) begin	// priority logic
 	end
 
 endmodule
