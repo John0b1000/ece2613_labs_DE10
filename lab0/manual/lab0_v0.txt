@@ -1,0 +1,6 @@
+Please navigate to the Canvas page for this lab. All instructions for setup will be under Module 0.
+
+Steps to complete:
+
+1. VS Code Setup
+2. VirtualBox Setup
