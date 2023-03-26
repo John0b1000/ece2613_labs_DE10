@@ -2,7 +2,7 @@
 // lab8 : version 03/25/2023
 //
 `timescale 1ns / 1ps
-module ms_counter (output logic [6:0] cathode, output logic [3:0] anode, input logic [3:0] control, input logic rst, input logic clk);
+module ms_counter (output logic [6:0] cathode, output logic [3:0] anode, input logic [2:0] control, input logic rst, input logic clk);
 	
 	// Enter your code here ...
 	// digit signals
